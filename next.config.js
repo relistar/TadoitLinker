@@ -71,7 +71,7 @@ module.exports = withPWA({
                 }
             }
         },
-        NEXT_PUBLIC_VERCEL: true
+        NEXT_PUBLIC_VERCEL: false
     },
     pwa: {
         disable: process.env.NODE_ENV === 'development',
