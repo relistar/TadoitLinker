@@ -1,0 +1,81 @@
+.page {
+  min-height: 100vh;
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+  padding: 30px 40px;
+  height: 100%;
+}
+
+.ant-layout-sider {
+  background-color: white;
+}
+
+.ant-layout-header {
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(168 183 230 / 15%);
+}
+
+.ant-layout-footer {
+  background: #3c72cd;
+  color: white;
+}
+
+.content-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 400px;
+  min-height: 250px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  top: 15px;
+  background-color: #3e68d1;
+
+  span > svg > path {
+    color: white;
+  }
+}
+
+.ant-btn-link {
+  color: #3e68d1;
+
+  svg {
+    path {
+      color: #3e68d1;
+    }
+  }
+}
+
+.ant-layout {
+  background: white;
+}
+
+@media screen and (max-width: 996px) {
+  .ant-layout-header {
+    padding-left: 40px;
+  }
+}
